@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- Matt Hasman 2/10/16 Practice Document -->
+<html>
+<head>
+<title>Matthews's Fourth Page</title>
+</head>
+<body>
+       <header>Matthew Hasman</header>
+       <nav>My links will go here</nav>
+       <section>
+              <article>
+                     <!--example of headings-->
+                     <h1>Chocolate</h1>                       <!-- Include Blank Line, Font, Bold -->
+                     <h2>Ramen</h2>
+                     <h3>Curry</h3>                                  <!-- use 2 or 3 for normal articles -->
+                     <h4>Meat Head Pizza</h4>          <!-- Size of regular font -->
+                     <h5>Baked Potatoes</h5>                  <!-- In between 4 and 6 -->
+                     <h6>Tots</h6>                            <!-- Better for footer -->
+                     <hr/>
+                     
+                           <!-- <hr/> is a line break -->
+                     
+                     <p>My dog has fleas in his weak knees.
+                           His juice is just as loose <br/> as mine.</p>
+                           
+                           <!-- '<br/>' is a line break, container tag -->
+                     
+              </article>
+              <article>
+                     <h2>Drinks</h2>
+                     <ul>                                                          <!-- unordered -->
+                           <li>Code Red Mountain Dew<br/></li>
+                           <li>Dr. Pepper <br/></li>
+                           <li>Sweet Tea</li>
+                     </ul>
+                     <h2>Games</h2>
+                     <ol>                                                          <!-- ordered -->
+                           <li>Witcher 3<br/></li>
+                           <li>The Legend of Zelda<br/></li>
+                           <li>The Elder Scrolls</li>
+                     </ol>
+                     
+              </article>
+              
+              
+              <article>
+                     <table border = 1>                       <!-- Making the table -->
+                           <tr>
+                                  <td>One Fish</td>          <!-- Cells of the table -->
+                                  <td>Two Fish</td>          <!-- Automaticly adjust to largest field -->
+                           </tr>
+                           <tr>
+                                  <td>Red Fish</td>
+                                  <td>Blue Fish</td>
+                           </tr>
+                           <tr>
+                                  <td>Live Fish</td>
+                                  <td>Dead Fish</td>
+                           </tr>
+                     </table>
+                     
+                     <table border = 1>   
+                           <caption><h3>My fishies!</h3></caption>                <!-- Making the table -->
+                           <tr>
+                                  <td>Left Tank</td>                       <!-- Cells of the table -->
+                                  <td>Right Tank</td>                      <!-- Automaticly adjust to largest field -->
+                           </tr>
+                           <tr>                                                   <!-- Automaticly adjust to largest field -->
+                                  <td>Blue Fish</td>                       <!-- Cells of the table -->
+                                  <td rowspan=2>Two Fish</td>       <!-- Makes the vertical length of the cell worth 2 cells -->
+                           </tr>
+                           <tr>
+                                  <td>Red Fish</td>
+                           </tr>
+                           <tr>
+                                  <td colspan=2>live fish</td>      <!-- Makes the cell have the length of 2 cells -->
+                           </tr>
+                     </table>
+              </article>
+              
+              
+       </section>
+       <aside>&nbsp;</aside>
+       <footer><p>&copy; Copyright Matthew Hasman All Rights Reserved 2016</p></footer>
+       
+</body>
+</html>
