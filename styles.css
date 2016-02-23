@@ -1,0 +1,16 @@
+<style>
+body {
+    background-color: lightblue;
+}
+
+h1, h2, h3, h4, h5, h6{ 
+	color:#4B0082;
+}
+ul li{
+	background-color:silver;
+}
+a:hover {
+	color:#B8860B;
+	font-size:24px;
+}
+</style>
