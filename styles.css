@@ -1,16 +1,28 @@
 <style>
 body {
-    background-color: lightblue;
-}
-
+	background-color: red;
+	}
 h1, h2, h3, h4, h5, h6{ 
-	color:#4B0082;
+	color:gold;
+}
+h1{
+	background-image:url('logoback.jpg');
+	a:hover {
+	color:#B8860B;
+	font-size:42px;
+}
 }
 ul li{
 	background-color:silver;
 }
+a:link, a:visited{
+	color:gold;
+}
 a:hover {
 	color:#B8860B;
 	font-size:24px;
+}
+p {
+	color:white;
 }
 </style>
