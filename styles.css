@@ -1,15 +1,22 @@
 <style>
-body {
-	background-color: red;
-	}
+body{
+
+}
 h1, h2, h3, h4, h5, h6{ 
 	color:gold;
+	text-align:center;
+	
 }
-h1{
+#logo{
 	background-image:url('logoback.jpg');
-	a:hover {
-	color:#B8860B;
-	font-size:42px;
+	background-attachment: fixed;
+border-style: solid;
+ 	border-width: 2px;
+ 	border-color:silver;
+	margin-left:20px;
+    padding-left:20px;
+    margin-right:20px;
+    padding-right:20px;
 }
 }
 ul li{
@@ -17,12 +24,27 @@ ul li{
 }
 a:link, a:visited{
 	color:gold;
+	text-align:center;
 }
 a:hover {
 	color:#B8860B;
 	font-size:24px;
 }
-p {
+p{
+	background-color:black;
+	border-style: solid;
+ 	border-width: 2px;
+ 	border-color:silver;
+    margin:20px;
+    padding:20px;
 	color:white;
+	text-align:center;
 }
+footer{
+	background-color:black;
+	border-style: solid;
+ 	border-width: 2px;
+ 	border-color:silver;
+}
+
 </style>
