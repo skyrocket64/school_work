@@ -1,16 +1,50 @@
 <style>
-body {
-    background-color: lightblue;
-}
+body{
 
+}
 h1, h2, h3, h4, h5, h6{ 
-	color:#4B0082;
+	color:gold;
+	text-align:center;
+	
+}
+#logo{
+	background-image:url('logoback.jpg');
+	background-attachment: fixed;
+border-style: solid;
+ 	border-width: 2px;
+ 	border-color:silver;
+	margin-left:20px;
+    padding-left:20px;
+    margin-right:20px;
+    padding-right:20px;
+}
 }
 ul li{
 	background-color:silver;
 }
+a:link, a:visited{
+	color:gold;
+	text-align:center;
+}
 a:hover {
 	color:#B8860B;
-	font-size:24px;
+	font-size:18px;
 }
+p{
+	background-color:black;
+	border-style: solid;
+ 	border-width: 2px;
+ 	border-color:silver;
+    margin:20px;
+    padding:20px;
+	color:white;
+	text-align:center;
+}
+footer{
+	background-color:black;
+	border-style: solid;
+ 	border-width: 2px;
+ 	border-color:silver;
+}
+
 </style>
