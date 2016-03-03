@@ -3,12 +3,12 @@ body{
 
 }
 h1, h2, h3, h4, h5, h6{ 
-	color:gold;
+	color:#E5C100;
 	text-align:center;
 	
 }
 #logo{
-	background-image:url('logoback.jpg');
+	background-image:url('images/logoback.jpg');
 	background-attachment: fixed;
 border-style: solid;
  	border-width: 2px;
@@ -23,7 +23,7 @@ ul li{
 	background-color:silver;
 }
 a:link, a:visited{
-	color:gold;
+	color:#E5C100;
 	text-align:center;
 }
 a:hover {
@@ -31,7 +31,7 @@ a:hover {
 	font-size:18px;
 }
 p{
-	background-color:black;
+	background-color:#1C1C1C;
 	border-style: solid;
  	border-width: 2px;
  	border-color:silver;
@@ -40,11 +40,43 @@ p{
 	color:white;
 	text-align:center;
 }
+nav{
+	background-color:#1C1C1C;
+	border-style: solid;
+ 	border-width: 2px;
+ 	margin-left:20px;
+    padding-left:20px;
+    margin-right:20px;
+    padding-right:20px;
+ 	border-color:silver;
+ 	color:white;
+	text-align:center;
+}
+
+}
 footer{
-	background-color:black;
+	background-image:url('images/logoback.jpg');
+	background-attachment: fixed;
 	border-style: solid;
  	border-width: 2px;
  	border-color:silver;
+	margin-left:20px;
+    padding-left:20px;
+    margin-right:20px;
+    padding-right:20px;
 }
-
+html, body{
+    width: 100%;
+    height: 100%;
+    }
+body{
+background: #1C1C1C;
+    background: -webkit-linear-gradient(left top, #230D55, black);
+    background: -o-linear-gradient(bottom right, #230D55, black);
+    background: -moz-linear-gradient(bottom right, #230D55, black);
+    background: linear-gradient(bottom right, #230D55, black); 
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+   }
 </style>
